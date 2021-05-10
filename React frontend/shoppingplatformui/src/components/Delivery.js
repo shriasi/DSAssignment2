@@ -43,7 +43,6 @@ class Delivery extends Component{
                                             </Form.Group>
                                         </div>
                                     </div>
-
                                     <Button className="btn-block" variant="success" type="submit" size="lg" block>
                                         Deliver
                                     </Button>
