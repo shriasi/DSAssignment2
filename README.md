@@ -10,26 +10,29 @@ Springboot - Seller CRUD API
 
 2) Implemented the projects structure
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/shriasi/DSAssignment2/blob/main/readme-images/projectstructure.PNG)
 
 
 3) Checked with PostMan for all the cruf functions
 
-images
 Data inserted
 
-
+![alt text](https://github.com/shriasi/DSAssignment2/blob/main/readme-images/insert.PNG)
 
 Data Retrieved
 
-
+![alt text](https://github.com/shriasi/DSAssignment2/blob/main/readme-images/retrieve.PNG)
 
 Data Updated
 
-
+![alt text](https://github.com/shriasi/DSAssignment2/blob/main/readme-images/update.PNG)
 
 Data Deleted
 
+![alt text](https://github.com/shriasi/DSAssignment2/blob/main/readme-images/delete.PNG)
+
+
+/********************** Backend Springboot - Buyer  Documentation **************/
 
 
 /**********************Frontend Documentation **************/
