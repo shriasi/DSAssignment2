@@ -3,7 +3,8 @@ import './App.css';
 import {BrowserRouter as Router, Route} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Delivery from "./components/Delivery";
-import Test from "./components/Test";
+import Cart from "./components/Cart";
+import Items from "./components/Items";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
 
     <div className="App">
       <Route path="/" exact component = {Delivery}/>
-      <Route path="/test" exact component = {Test}/>
+      <Route path="/Cart" exact component = {Cart}/>
+      <Route path="/Items" exact component = {Items}/>
     </div>
 
       </Router>

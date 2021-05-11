@@ -17,25 +17,25 @@ class Delivery extends Component{
                                 <img className="DeliveryImg" src={DeliveryImg} alt=""/>
                                 <Form className="mt-3">
                                     <Form.Group>
-                                        <Form.Label className="cusName">Customer Name </Form.Label>
+                                        <Form.Label className="cusTxt">Customer Name </Form.Label>
                                         <Form.Control type="text" placeholder="Dilshan Perera" />
                                          <br/>
                                     </Form.Group>
 
                                     <Form.Group>
-                                        <Form.Label className="cusName">Customer Address </Form.Label>
+                                        <Form.Label className="cusTxt">Customer Address </Form.Label>
                                         <Form.Control type="address" placeholder="26 Park Street, Colombo" />
                                         <br/>
                                     </Form.Group>
                                     <div className="SideBySide">
                                         <div className="mobile">
                                             <Form.Group>
-                                                <Form.Label className="cusName">Mobile Number </Form.Label>
+                                                <Form.Label className="cusTxt">Mobile Number </Form.Label>
                                                 <Form.Control type="mobile" placeholder="0771112223" />
                                                 <br/>
                                             </Form.Group>
                                         </div>
-                                        <div className="deliver">
+                                        <div className="deliverTxt">
                                             <Form.Group>
                                                 <Form.Label className="cusName">Delivery Charges </Form.Label>
                                                 <Form.Control type="Delivery Charges" placeholder="380.00" />

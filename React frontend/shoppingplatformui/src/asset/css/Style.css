@@ -24,10 +24,22 @@ body{
     margin-right: 20px;
 }
 
-.deliver{
+.deliverTxt{
     margin-left: 10px;
 }
 
-.cusName{
+.cusTxt{
+    float: left;
+}
+
+.CartBox{
+    color: black;
+    width: 60rem;
+    height: auto;
+    border-radius: 2px;
+    box-shadow: 0 0 6px 0 rgba(0,115,230,0.3);
+}
+
+.CardsBox{
     float: left;
 }
