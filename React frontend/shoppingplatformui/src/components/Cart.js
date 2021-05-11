@@ -16,16 +16,16 @@ class Cart extends Component{
 
                         <CardDeck>
                             <Card className="CardSpacing">
-                                <Card.Img style={{ width: '10rem'}} variant="top" src={b5} />
+                                <Card.Img style={{ width: '10rem'}} variant="top" src={b5}/>
                                 <Card.Body>
                                     <Card.Title>ATLAS B5 BOOK </Card.Title>
-                                    <Card.Text>ATLAS B5 BOOK</Card.Text>
-                                    <Card.Text>SINGLE RULED</Card.Text>
-                                    <Card.Text>80 PGS</Card.Text>
+                                    <Card.Text>ATLAS B5 BOOK
+                                    SINGLE RULED
+                                    80 PGS</Card.Text>
                                     <Card.Text>RS. 90.0</Card.Text>
                                 </Card.Body>
                                 <div className="ButtonStyling">
-                                    <Button className="cartBtn" variant="primary" type="submit" style={{width:'10rem'}}> Remove </Button>
+                                    <Button className="cartBtn" variant="danger" type="submit" style={{width:'10rem'}}> Remove </Button>
                                     <Button className="cartBtn" variant="success" type="submit" style={{width:'10rem'}}> Order </Button>
                                 </div>
                                 <Card.Footer>
@@ -38,14 +38,14 @@ class Cart extends Component{
                                 <Card.Body>
                                     <Card.Title>ATLAS A4 DRAWING BOOK</Card.Title>
                                     <Card.Text>
-                                        <Card.Text>ATLAS A4 DRAWING BOOK</Card.Text>
-                                        <Card.Text>SMALL</Card.Text>
-                                        <Card.Text>20 PGS</Card.Text>
+                                        <Card.Text>ATLAS A4 DRAWING BOOK
+                                        SMALL
+                                        20 PGS</Card.Text>
                                         <Card.Text>RS. 50.0</Card.Text>
                                     </Card.Text>
                                 </Card.Body>
                                 <div className="ButtonStyling">
-                                    <Button className="cartBtn" variant="primary" type="submit" style={{width:'10rem'}}> Remove </Button>
+                                    <Button className="cartBtn" variant="danger" type="submit" style={{width:'10rem'}}> Remove </Button>
                                     <Button className="cartBtn" variant="success" type="submit" style={{width:'10rem'}}> Order </Button>
                                 </div>
                                 <Card.Footer>
@@ -57,13 +57,13 @@ class Cart extends Component{
                                 <Card.Body>
                                     <Card.Title>ATLAS A4 SCIENCE BOOK GRAPH</Card.Title>
                                     <Card.Text>
-                                        <Card.Text>ATLAS A4 SCIENCE BOOK GRAPH</Card.Text>
-                                        <Card.Text>80 PGS</Card.Text>
+                                        <Card.Text>ATLAS A4 SCIENCE BOOK GRAPH
+                                        80 PGS</Card.Text>
                                         <Card.Text>RS. 50.0</Card.Text>
                                     </Card.Text>
                                 </Card.Body>
                                 <div className="ButtonStyling">
-                                    <Button className="cartBtn" variant="primary" type="submit" style={{width:'10rem'}}> Remove </Button>
+                                    <Button className="cartBtn" variant="danger" type="submit" style={{width:'10rem'}}> Remove </Button>
                                     <Button className="cartBtn" variant="success" type="submit" style={{width:'10rem'}}> Order </Button>
                                 </div>
                                 <Card.Footer>
