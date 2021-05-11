@@ -8,7 +8,7 @@ class Delivery extends Component{
     render() {
         return (
             <div>
-                <h1>Delivery Service</h1>
+                <h1 className="heading">Delivery Service</h1>
             <Fragment>
                 <Container>
                     <Row>
@@ -28,17 +28,17 @@ class Delivery extends Component{
                                         <br/>
                                     </Form.Group>
                                     <div className="SideBySide">
-                                        <div className="mobile">
+                                        <div className="right">
                                             <Form.Group>
                                                 <Form.Label className="cusTxt">Mobile Number </Form.Label>
                                                 <Form.Control type="mobile" placeholder="0771112223" />
                                                 <br/>
                                             </Form.Group>
                                         </div>
-                                        <div className="deliverTxt">
+                                        <div className="left">
                                             <Form.Group>
                                                 <Form.Label className="cusName">Delivery Charges </Form.Label>
-                                                <Form.Control type="Delivery Charges" placeholder="380.00" />
+                                                <Form.Control type="text" placeholder="380.00" />
                                                 <br/>
                                             </Form.Group>
                                         </div>

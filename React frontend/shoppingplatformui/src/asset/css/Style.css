@@ -1,13 +1,18 @@
 body{
     background-color: aliceblue;
 }
+
 .deliveryBox{
-    color: darkblue;
+    color: white;
     width: 40rem;
     height: auto;
     border-radius: 2px;
     box-shadow: 0 0 6px 0 rgba(0,115,230,0.3);
+    background-color: #0a043c;
 }
+
+
+
 .DeliveryImg{
     width: 10.5rem;
     height: 10.5rem;
@@ -20,11 +25,11 @@ body{
     padding: 5px;
 }
 
-.mobile{
+.right{
     margin-right: 20px;
 }
 
-.deliverTxt{
+.left{
     margin-left: 10px;
 }
 

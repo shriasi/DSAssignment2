@@ -10,7 +10,7 @@ class Cart extends Component{
     render() {
         return (
             <div>
-                <h1>Shopping Cart</h1>
+                <h1 className="heading">Shopping Cart</h1>
                 <Fragment>
                     <Container>
 
@@ -33,7 +33,7 @@ class Cart extends Component{
                                 </Card.Footer>
                             </Card>
 
-                            <Card>
+                            <Card className="CardSpacing">
                                 <Card.Img style={{ width: '10rem'}} variant="top" src={drawing} />
                                 <Card.Body>
                                     <Card.Title>ATLAS A4 DRAWING BOOK</Card.Title>
@@ -52,7 +52,7 @@ class Cart extends Component{
                                     <small className="text-muted">Last updated 3 mins ago</small>
                                 </Card.Footer>
                             </Card>
-                            <Card>
+                            <Card className="CardSpacing">
                                 <Card.Img style={{ width: '10rem'}} variant="top" src={graphBook} />
                                 <Card.Body>
                                     <Card.Title>ATLAS A4 SCIENCE BOOK GRAPH</Card.Title>

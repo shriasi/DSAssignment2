@@ -1,0 +1,28 @@
+body{
+    background-color: darkslateblue;
+}
+
+.RegisterBox{
+    color: white;
+    width: 30rem;
+    height: auto;
+    border-radius: 3px;
+    box-shadow: 0 0 6px 0 rgba(0,116,232,0.3);
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: cornflowerblue;
+}
+
+.heading{
+    color: white;
+}
+
+
+.LabelBox{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.TextBox{
+    float: left;
+}

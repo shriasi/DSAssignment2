@@ -1,6 +1,7 @@
 import React, {Component, Fragment} from 'react'
 import {Container, Row, Col, Form, Button} from "react-bootstrap";
 import "../asset/css/Style.css";
+import "../asset/css/Style2.css";
 import loginImg from '../asset/image/login.jpg'
 
 class Login extends Component{
@@ -8,7 +9,7 @@ class Login extends Component{
     render() {
         return (
             <div>
-                <h1>Log in</h1>
+                <h1 className="heading">Log in</h1>
                 <Fragment>
                     <Container>
                         <Row>
@@ -24,14 +25,14 @@ class Login extends Component{
 
                                         <Form.Group>
                                             <Form.Label className="cusTxt">Password</Form.Label>
-                                            <Form.Control type="password" placeholder="********" />
+                                            <Form.Control type="passw`ord" placeholder="********" />
                                             <br/>
                                         </Form.Group>
                                         <Button className="btn-block" variant="primary" type="submit" block>
                                             Login
                                         </Button>
                                         <div className="signupBox">
-                                            <a className="" href="#"> Sign Up </a>
+                                            <a className="" href="#"> Register Now </a>
                                         </div>
                                     </Form>
                                 </div>
