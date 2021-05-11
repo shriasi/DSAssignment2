@@ -43,3 +43,17 @@ body{
 .CardsBox{
     float: left;
 }
+
+.CardSpacing{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.ButtonStyling{
+    float: left;
+    padding: 20px;
+}
+
+.cartBtn{
+    margin-right: 10px;
+}

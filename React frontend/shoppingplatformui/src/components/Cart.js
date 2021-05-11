@@ -1,5 +1,9 @@
 import React, {Fragment,Component} from "react";
-import {Container, CardDeck, Card} from "react-bootstrap";
+import {Container, CardDeck, Card, Button} from "react-bootstrap";
+import "../asset/css/Style.css";
+import b5 from '../asset/image/b5.jpg'
+import drawing from '../asset/image/drawing.jpg'
+import graphBook from '../asset/image/graph.jpg'
 
 class Cart extends Component{
 
@@ -11,42 +15,57 @@ class Cart extends Component{
                     <Container>
 
                         <CardDeck>
-                            <Card>
-                                <Card.Img variant="top" src="holder.js/100px160" />
+                            <Card className="CardSpacing">
+                                <Card.Img style={{ width: '10rem'}} variant="top" src={b5} />
                                 <Card.Body>
-                                    <Card.Title>Card title</Card.Title>
+                                    <Card.Title>ATLAS B5 BOOK </Card.Title>
+                                    <Card.Text>ATLAS B5 BOOK</Card.Text>
+                                    <Card.Text>SINGLE RULED</Card.Text>
+                                    <Card.Text>80 PGS</Card.Text>
+                                    <Card.Text>RS. 90.0</Card.Text>
+                                </Card.Body>
+                                <div className="ButtonStyling">
+                                    <Button className="cartBtn" variant="primary" type="submit" style={{width:'10rem'}}> Remove </Button>
+                                    <Button className="cartBtn" variant="success" type="submit" style={{width:'10rem'}}> Order </Button>
+                                </div>
+                                <Card.Footer>
+                                    <small className="text-muted">Last updated 3 mins ago</small>
+                                </Card.Footer>
+                            </Card>
+
+                            <Card>
+                                <Card.Img style={{ width: '10rem'}} variant="top" src={drawing} />
+                                <Card.Body>
+                                    <Card.Title>ATLAS A4 DRAWING BOOK</Card.Title>
                                     <Card.Text>
-                                        This is a wider card with supporting text below as a natural lead-in to
-                                        additional content. This content is a little bit longer.
+                                        <Card.Text>ATLAS A4 DRAWING BOOK</Card.Text>
+                                        <Card.Text>SMALL</Card.Text>
+                                        <Card.Text>20 PGS</Card.Text>
+                                        <Card.Text>RS. 50.0</Card.Text>
                                     </Card.Text>
                                 </Card.Body>
+                                <div className="ButtonStyling">
+                                    <Button className="cartBtn" variant="primary" type="submit" style={{width:'10rem'}}> Remove </Button>
+                                    <Button className="cartBtn" variant="success" type="submit" style={{width:'10rem'}}> Order </Button>
+                                </div>
                                 <Card.Footer>
                                     <small className="text-muted">Last updated 3 mins ago</small>
                                 </Card.Footer>
                             </Card>
                             <Card>
-                                <Card.Img variant="top" src="holder.js/100px160" />
+                                <Card.Img style={{ width: '10rem'}} variant="top" src={graphBook} />
                                 <Card.Body>
-                                    <Card.Title>Card title</Card.Title>
+                                    <Card.Title>ATLAS A4 SCIENCE BOOK GRAPH</Card.Title>
                                     <Card.Text>
-                                        This card has supporting text below as a natural lead-in to additional
-                                        content.{' '}
+                                        <Card.Text>ATLAS A4 SCIENCE BOOK GRAPH</Card.Text>
+                                        <Card.Text>80 PGS</Card.Text>
+                                        <Card.Text>RS. 50.0</Card.Text>
                                     </Card.Text>
                                 </Card.Body>
-                                <Card.Footer>
-                                    <small className="text-muted">Last updated 3 mins ago</small>
-                                </Card.Footer>
-                            </Card>
-                            <Card>
-                                <Card.Img variant="top" src="holder.js/100px160" />
-                                <Card.Body>
-                                    <Card.Title>Card title</Card.Title>
-                                    <Card.Text>
-                                        This is a wider card with supporting text below as a natural lead-in to
-                                        additional content. This card has even longer content than the first to
-                                        show that equal height action.
-                                    </Card.Text>
-                                </Card.Body>
+                                <div className="ButtonStyling">
+                                    <Button className="cartBtn" variant="primary" type="submit" style={{width:'10rem'}}> Remove </Button>
+                                    <Button className="cartBtn" variant="success" type="submit" style={{width:'10rem'}}> Order </Button>
+                                </div>
                                 <Card.Footer>
                                     <small className="text-muted">Last updated 3 mins ago</small>
                                 </Card.Footer>
