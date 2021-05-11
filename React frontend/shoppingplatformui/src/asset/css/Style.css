@@ -58,3 +58,8 @@ body{
 .cartBtn{
     margin-right: 10px;
 }
+
+.signupBox{
+    align-content: center;
+    margin-top: 20px;
+}
