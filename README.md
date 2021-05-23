@@ -1,8 +1,10 @@
 # DSAssignment2
 
-/********************** Backend Springboot - Seller CRUD API Documentation **************/
+IT19024882
 
-Springboot - Seller CRUD API
+/********************** Backend Springboot - Seller CRUD API Documentation   - IT19024882 **************/
+
+Springboot - Seller CRUD API   - IT19024882
 
 1) Initialized a springboot project with using Spring Initiaizer
 
